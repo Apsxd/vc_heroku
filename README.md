@@ -1,2 +1,2 @@
-<b>DEPLOY TO HEROKU ⬇️.</b>
+<b>DEPLOY TO HEROKU ⬇️</b>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zyrus-basi/vc_bot)
