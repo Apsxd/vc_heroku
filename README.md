@@ -4,6 +4,6 @@ TELEGRAM VOICE CHAT BOT
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-black.svg)](https://github.com/zyrus-basi/vc_heroku/graphs/commit-activity)
 <p align="center">
-    <a href="https://app.codacy.com/manual/zyrus-basi/vc_heroku/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://app.codacy.com/manual/zyrus-basi/vc_heroku/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightblue&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
 <b>DEPLOY⬇️</b>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zyrus-basi/vc_heroku)
