@@ -10,16 +10,21 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""I am **{bn}** !!
 
-iam a telegram music bot i play music on voice chat on telegram groups [☺️](https://telegra.ph/file/5151877cfe274d2c78ac7.jpg)
+COMMANDS
+ /play - Plays the replied audio file or YouTube video through link.
+ /pause - Pause Voice Chat Music.
+ /resume - Resume Voice Chat Music.
+ /skip - Skips the current Music Playing In Voice Chat.
+ /stop - Clears The Queue as well as ends Voice Chat Music.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ADD ME TO GROUPS", url="https://t.me/heyyoheyyo"
+                        "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
                     ),
                     InlineKeyboardButton(
-                        "OWNER", url="https://t.me/AwAlKeR96"
+                        "GROUP", url="https://t.me/uniedbotsupport"
                     )
                 ]
             ]
