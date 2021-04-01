@@ -12,30 +12,14 @@ async def start(_, message: Message):
         """,
         reply_markup=InlineKeyboardMarkup(
             [
-                        [
-                            InlineKeyboardButton(
-                                text="ADD ME TO GROUP",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
-                                ),
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="SUPPORT",
-                                url=f"https://t.me/unitedbotsupport",
-                            ),
-                            InlineKeyboardButton(
-                                text="SOURCE CODE",
-                                url="https://github.com/Basi-mon/vc_heroku",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="COMMANDS||GUIDE",
-                                url="https://t.me/nimmisupport/47",
-                            )
-                        ],
-                    ]
-                ),
-            )
+                [
+                    InlineKeyboardButton(
+                        "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
+                    ),
+                    InlineKeyboardButton(
+                        "GROUP||COMMANDS", url="https://t.me/unitedbotsupport"
+                    )
+                ]
+            ]
+        )
+    )
