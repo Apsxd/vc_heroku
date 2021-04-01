@@ -8,25 +8,34 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am **{bn}** !!
-
-COMMANDS
- /play - Plays the replied audio file or YouTube video through link.
- /pause - Pause Voice Chat Music.
- /resume - Resume Voice Chat Music.
- /skip - Skips the current Music Playing In Voice Chat.
- /stop - Clears The Queue as well as ends Voice Chat Music.
+        f"""[★](https://telegra.ph/file/740f87cbf8ef39d7af03d.png)I am **{bn}** A telegram voice chat bot for playing songs in your group voice chat
         """,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
-                    ),
-                    InlineKeyboardButton(
-                        "GROUP", url="https://t.me/unitedbotsupport"
-                    )
-                ]
-            ]
-        )
-    )
+                        [
+                            InlineKeyboardButton(
+                                text="ADD ME TO GROUP",
+                                url="t.me/{}?startgroup=true".format(
+                                    context.bot.username
+                                ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="SUPPORT",
+                                url=f"https://t.me/unitedbotsupport",
+                            ),
+                            InlineKeyboardButton(
+                                text="SOURCE CODE",
+                                url="https://github.com/Basi-mon/vc_heroku",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="COMMANDS||GUIDE",
+                                url="https://t.me/nimmisupport/47",
+                            )
+                        ],
+                    ]
+                ),
+            )
