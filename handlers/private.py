@@ -24,7 +24,7 @@ COMMANDS
                         "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/uniedbotsupport"
+                        "GROUP", url="https://t.me/unitedbotsupport"
                     )
                 ]
             ]
