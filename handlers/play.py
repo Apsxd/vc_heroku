@@ -38,7 +38,7 @@ async def play(_, message: Message):
         return await message.reply_text(f"**{bn} :-** GIVE ME SOMETHING TO PLAY")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
-        await message.reply_text(f"**{bn} :-**[★](https://telegra.ph/file/740f87cbf8ef39d7af03d.png) QUEUED AT  #{await callsmusic.queues.put(message.chat.id, file_path=file_path)}!join group voice chat")
+        await message.reply_text(f"**{bn} :-**[★](https://telegra.ph/file/740f87cbf8ef39d7af03d.png) QUEUED AT  #{await callsmusic.queues.put(message.chat.id, file_path=file_path)}!💫join group voice chat")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_text(f"**{bn} :-**[★](https://telegra.ph/file/740f87cbf8ef39d7af03d.png) PLAYING...~ playing at voice chat join voice chat to listen some music")
