@@ -24,7 +24,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**{bn} :-**VIDEO IS LONGERTHAN {DURATION_LIMIT} minute(s) \n THE VIDEO U GIVEN IS {audio.duration / 60} MINUTES(s)"
+                f"**{bn} :-** video is longer than {DURATION_LIMIT} minute(s) \n the video u given is {audio.duration / 60} minutes(s)"
             )
 
         file_name = get_file_name(audio)
@@ -35,10 +35,10 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await message.reply_text(f"**{bn} :-** GIVE ME SOMETHING TO PLAY")
+        return await message.reply_text(f"**{bn} :-** give someting to play")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
-        await message.reply_text(f"**{bn} :-** QUEUED AT  💫{await callsmusic.queues.put(message.chat.id, file_path=file_path)}! join group voice chat")
+        await message.reply_text(f"**{bn} :-** listed @ {await callsmusic.queues.put(message.chat.id, file_path=file_path)} playing on vc")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-        await message.reply_text(f"**{bn} :-** PLAYING...~ playing at voice chat join voice chat to listen some music [💫](https://telegra.ph/file/7f41aeb8e974482d24d12.jpg)")
+        await message.reply_text(f"**{bn} :-** transcoding..... playing ")
