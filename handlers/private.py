@@ -13,16 +13,18 @@ Click [COMMANDS](https://telegra.ph/MUSIC-BOT-COMMAND-04-08) For a takeup on com
 Join our support group for getting manual about how adding to your group
         """,
         reply_markup=InlineKeyboardMarkup(
-            [
+             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/basi-mon/vc_heroku"
+                        "source", url="https://github.com/Basi-mon/vc_heroku"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "Group", url="https://t.me/unitedbotsupport"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/unitedbotsupport"
-                    ),
-                    Inlinekeyboardbutton(
-                         "ASSISTANT", url="https://t.me/bliss_robot"
+                        "assistant", url="https://t.me/bliss_robot"
                     )
                 ]
             ]
