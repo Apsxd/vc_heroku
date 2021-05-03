@@ -9,14 +9,14 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
 f""",I am **{bn}** A telegram voice chat bot for playing songs in your group voice chat.
-Click [COMMANDS](https://telegra.ph/MUSIC-BOT-COMMAND-04-08) For a takeup on commands.
+Click commands For a takeup on commands.
 Join our support group for getting manual about how adding to your group
         """,
         reply_markup=InlineKeyboardMarkup(
              [
                 [
                     InlineKeyboardButton(
-                        "source", url="https://github.com/Basi-mon/vc_heroku"
+                        "source||commands", url="https://telegra.ph/MUSIC-BOT-COMMAND-04-08"
                     )
                 ],
                 [
