@@ -8,7 +8,7 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f""",[💫](https://telegra.ph/file/df72626a90d9564a88b57.jpg)I am **{bn}** A telegram voice chat bot for playing songs in your group voice chat
+        f""",I am **{bn}** A telegram voice chat bot for playing songs in your group voice chat
 Click [commands](https://telegra.ph/MUSIC-BOT-COMMAND-04-08) to look at bot commands
 add assistant user bot after adding bot to groups you can get it by clicking [GROUP] button
         """,
@@ -16,10 +16,13 @@ add assistant user bot after adding bot to groups you can get it by clicking [GR
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
+                        "SOURCE CODE", url="https://github.com/basi-mon/vc_heroku"
                     ),
                     InlineKeyboardButton(
-                        "GROUP||ASSISTANT", url="https://t.me/unitedbotsupport"
+                        "GROUP", url="https://t.me/unitedbotsupport"
+                    ),
+                    Inlinekeyboardbutton(
+                         "ASSISTANT", url=" https://t.me/bliss_robot"
                     )
                 ]
             ]
