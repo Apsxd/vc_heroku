@@ -1,5 +1,4 @@
 # VC-HEROKU
-![logo](https://telegra.ph/file/740f87cbf8ef39d7af03d.png)
 TELEGRAM VOICE CHAT BOT
 ★ Reach me on Telegram @unitedbotsupport
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
