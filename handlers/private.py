@@ -22,7 +22,7 @@ Join our support group for getting manual about how adding to your group
                         "GROUP", url="https://t.me/unitedbotsupport"
                     ),
                     Inlinekeyboardbutton(
-                         "ASSISTANT", url=" https://t.me/bliss_robot"
+                         "ASSISTANT", url="https://t.me/bliss_robot"
                     )
                 ]
             ]
