@@ -16,7 +16,7 @@ Join our support group for getting manual about how adding to your group
              [
                 [
                     InlineKeyboardButton(
-                        "source||commands", url="https://telegra.ph/MUSIC-BOT-COMMAND-04-08"
+                        "source || commands", url="https://telegra.ph/MUSIC-BOT-COMMAND-04-08"
                     )
                 ],
                 [
